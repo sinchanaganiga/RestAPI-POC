@@ -1,0 +1,602 @@
+2025-04-21 13:46:05 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-21 13:46:06 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Lightweight Wool Shirt","data":{"color":"fuchsia","capacity":"318 GB"}}
+2025-04-21 13:46:08 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196576b3c51314f",
+  "name" : "Lightweight Wool Shirt",
+  "createdAt" : "2025-04-21T08:16:07.761+00:00",
+  "data" : {
+    "color" : "fuchsia",
+    "capacity" : "318 GB"
+  }
+}
+2025-04-21 13:46:08 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196576b3c51314f
+2025-04-21 13:46:09 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-21 13:46:09 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196576b3c51314f and payload: {"name":"Intelligent Steel Lamp","data":{"color":"ivory","capacity":"407 GB"}}
+2025-04-21 13:46:10 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196576b3c51314f",
+  "name" : "Intelligent Steel Lamp",
+  "updatedAt" : "2025-04-21T08:16:10.043+00:00",
+  "data" : {
+    "color" : "ivory",
+    "capacity" : "407 GB"
+  }
+}
+2025-04-21 13:46:10 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196576b3c51314f updated successfully.
+2025-04-21 13:46:10 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-21 13:46:10 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196576b3c51314f and payload: {"name":"Intelligent Aluminum Keyboard","data":null}
+2025-04-21 13:46:11 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196576b3c51314f",
+  "name" : "Intelligent Aluminum Keyboard",
+  "updatedAt" : "2025-04-21T08:16:10.851+00:00",
+  "data" : null
+}
+2025-04-21 13:46:11 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196576b3c51314f patched successfully.
+2025-04-21 13:46:11 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-21 13:46:11 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196576b3c51314f
+2025-04-21 13:46:11 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196576b3c51314f has been deleted."
+}
+2025-04-21 13:46:11 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196576b3c51314f deleted successfully.
+2025-04-21 13:50:31 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-21 13:50:31 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Gorgeous Iron Computer","data":{"color":"plum","capacity":"236 GB"}}
+2025-04-21 13:50:33 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196576f49883153",
+  "name" : "Gorgeous Iron Computer",
+  "createdAt" : "2025-04-21T08:20:33.289+00:00",
+  "data" : {
+    "color" : "plum",
+    "capacity" : "236 GB"
+  }
+}
+2025-04-21 13:50:34 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196576f49883153
+2025-04-21 13:50:34 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-21 13:50:34 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196576f49883153 and payload: {"name":"Durable Granite Knife","data":{"color":"ivory","capacity":"469 GB"}}
+2025-04-21 13:50:35 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196576f49883153",
+  "name" : "Durable Granite Knife",
+  "updatedAt" : "2025-04-21T08:20:35.570+00:00",
+  "data" : {
+    "color" : "ivory",
+    "capacity" : "469 GB"
+  }
+}
+2025-04-21 13:50:35 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196576f49883153 updated successfully.
+2025-04-21 13:50:35 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-21 13:50:35 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196576f49883153 and payload: {"name":"Gorgeous Cotton Chair","data":null}
+2025-04-21 13:50:36 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196576f49883153",
+  "name" : "Gorgeous Cotton Chair",
+  "updatedAt" : "2025-04-21T08:20:36.390+00:00",
+  "data" : null
+}
+2025-04-21 13:50:36 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196576f49883153 patched successfully.
+2025-04-21 13:50:36 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-21 13:50:36 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196576f49883153
+2025-04-21 13:50:37 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196576f49883153 has been deleted."
+}
+2025-04-21 13:50:37 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196576f49883153 deleted successfully.
+2025-04-21 13:52:09 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-21 13:52:10 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Incredible Concrete Bottle","data":{"color":"azure","capacity":"446 GB"}}
+2025-04-21 13:52:12 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb601965770caa13156",
+  "name" : "Incredible Concrete Bottle",
+  "createdAt" : "2025-04-21T08:22:11.873+00:00",
+  "data" : {
+    "color" : "azure",
+    "capacity" : "446 GB"
+  }
+}
+2025-04-21 13:52:12 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb601965770caa13156
+2025-04-21 13:52:13 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-21 13:52:13 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb601965770caa13156 and payload: {"name":"Small Granite Wallet","data":{"color":"orchid","capacity":"398 GB"}}
+2025-04-21 13:52:14 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb601965770caa13156",
+  "name" : "Small Granite Wallet",
+  "updatedAt" : "2025-04-21T08:22:14.568+00:00",
+  "data" : {
+    "color" : "orchid",
+    "capacity" : "398 GB"
+  }
+}
+2025-04-21 13:52:14 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb601965770caa13156 updated successfully.
+2025-04-21 13:52:14 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-21 13:52:14 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb601965770caa13156 and payload: {"name":"Awesome Steel Computer","data":null}
+2025-04-21 13:52:15 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb601965770caa13156",
+  "name" : "Awesome Steel Computer",
+  "updatedAt" : "2025-04-21T08:22:15.392+00:00",
+  "data" : null
+}
+2025-04-21 13:52:15 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb601965770caa13156 patched successfully.
+2025-04-21 13:52:15 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-21 13:52:15 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb601965770caa13156
+2025-04-21 13:52:16 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb601965770caa13156 has been deleted."
+}
+2025-04-21 13:52:16 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb601965770caa13156 deleted successfully.
+2025-04-21 16:11:09 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-21 16:11:09 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Mediocre Granite Shoes","data":{"color":"silver","capacity":"213 GB"}}
+2025-04-21 16:11:11 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb6019657f00b7332be",
+  "name" : "Mediocre Granite Shoes",
+  "createdAt" : "2025-04-21T10:41:11.539+00:00",
+  "data" : {
+    "color" : "silver",
+    "capacity" : "213 GB"
+  }
+}
+2025-04-21 16:11:12 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb6019657f00b7332be
+2025-04-21 16:11:13 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-21 16:11:13 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb6019657f00b7332be and payload: {"name":"Rustic Steel Pants","data":{"color":"maroon","capacity":"477 GB"}}
+2025-04-21 16:11:13 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb6019657f00b7332be",
+  "name" : "Rustic Steel Pants",
+  "updatedAt" : "2025-04-21T10:41:13.748+00:00",
+  "data" : {
+    "color" : "maroon",
+    "capacity" : "477 GB"
+  }
+}
+2025-04-21 16:11:13 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb6019657f00b7332be updated successfully.
+2025-04-21 16:11:13 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-21 16:11:13 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb6019657f00b7332be and payload: {"name":"Mediocre Bronze Clock","data":null}
+2025-04-21 16:11:14 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb6019657f00b7332be",
+  "name" : "Mediocre Bronze Clock",
+  "updatedAt" : "2025-04-21T10:41:14.440+00:00",
+  "data" : null
+}
+2025-04-21 16:11:14 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb6019657f00b7332be patched successfully.
+2025-04-21 16:11:14 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-21 16:11:14 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb6019657f00b7332be
+2025-04-21 16:11:15 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb6019657f00b7332be has been deleted."
+}
+2025-04-21 16:11:15 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb6019657f00b7332be deleted successfully.
+2025-04-21 16:21:26 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-21 16:21:26 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Fantastic Marble Chair","data":{"color":"blue","capacity":"206 GB"}}
+2025-04-21 16:21:28 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb6019657f974da32cb",
+  "name" : "Fantastic Marble Chair",
+  "createdAt" : "2025-04-21T10:51:28.346+00:00",
+  "data" : {
+    "color" : "blue",
+    "capacity" : "206 GB"
+  }
+}
+2025-04-21 16:21:29 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb6019657f974da32cb
+2025-04-21 16:21:29 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-21 16:21:29 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb6019657f974da32cb and payload: {"name":"Small Bronze Bench","data":{"color":"lavender","capacity":"375 GB"}}
+2025-04-21 16:21:30 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb6019657f974da32cb",
+  "name" : "Small Bronze Bench",
+  "updatedAt" : "2025-04-21T10:51:30.348+00:00",
+  "data" : {
+    "color" : "lavender",
+    "capacity" : "375 GB"
+  }
+}
+2025-04-21 16:21:30 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb6019657f974da32cb updated successfully.
+2025-04-21 16:21:30 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-21 16:21:30 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb6019657f974da32cb and payload: {"name":"Enormous Linen Pants","data":null}
+2025-04-21 16:21:31 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb6019657f974da32cb",
+  "name" : "Enormous Linen Pants",
+  "updatedAt" : "2025-04-21T10:51:31.261+00:00",
+  "data" : null
+}
+2025-04-21 16:21:31 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb6019657f974da32cb patched successfully.
+2025-04-21 16:21:31 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-21 16:21:31 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb6019657f974da32cb
+2025-04-21 16:21:32 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb6019657f974da32cb has been deleted."
+}
+2025-04-21 16:21:32 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb6019657f974da32cb deleted successfully.
+2025-04-22 11:41:22 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-22 11:41:22 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Synergistic Concrete Chair","data":{"color":"magenta","capacity":"376 GB"}}
+2025-04-22 11:41:24 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb601965c1f682b3bec",
+  "name" : "Synergistic Concrete Chair",
+  "createdAt" : "2025-04-22T06:11:24.332+00:00",
+  "data" : {
+    "color" : "magenta",
+    "capacity" : "376 GB"
+  }
+}
+2025-04-22 11:41:25 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb601965c1f682b3bec
+2025-04-22 11:41:26 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-22 11:41:26 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb601965c1f682b3bec and payload: {"name":"Intelligent Silk Lamp","data":{"color":"sky blue","capacity":"445 GB"}}
+2025-04-22 11:41:27 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb601965c1f682b3bec",
+  "name" : "Intelligent Silk Lamp",
+  "updatedAt" : "2025-04-22T06:11:26.881+00:00",
+  "data" : {
+    "color" : "sky blue",
+    "capacity" : "445 GB"
+  }
+}
+2025-04-22 11:41:27 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb601965c1f682b3bec updated successfully.
+2025-04-22 11:41:27 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-22 11:41:27 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb601965c1f682b3bec and payload: {"name":"Mediocre Wool Clock","data":null}
+2025-04-22 11:41:27 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb601965c1f682b3bec",
+  "name" : "Mediocre Wool Clock",
+  "updatedAt" : "2025-04-22T06:11:27.589+00:00",
+  "data" : null
+}
+2025-04-22 11:41:27 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb601965c1f682b3bec patched successfully.
+2025-04-22 11:41:27 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-22 11:41:27 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb601965c1f682b3bec
+2025-04-22 11:41:28 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb601965c1f682b3bec has been deleted."
+}
+2025-04-22 11:41:28 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb601965c1f682b3bec deleted successfully.
+2025-04-22 12:42:06 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-04-22 12:42:06 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Rustic Aluminum Lamp","data":{"color":"black","capacity":"292 GB"}}
+2025-04-22 12:42:08 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb601965c57015a3c98",
+  "name" : "Rustic Aluminum Lamp",
+  "createdAt" : "2025-04-22T07:12:08.026+00:00",
+  "data" : {
+    "color" : "black",
+    "capacity" : "292 GB"
+  }
+}
+2025-04-22 12:42:08 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb601965c57015a3c98
+2025-04-22 12:42:09 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-04-22 12:42:09 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb601965c57015a3c98 and payload: {"name":"Lightweight Marble Chair","data":{"color":"azure","capacity":"157 GB"}}
+2025-04-22 12:42:10 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb601965c57015a3c98",
+  "name" : "Lightweight Marble Chair",
+  "updatedAt" : "2025-04-22T07:12:10.087+00:00",
+  "data" : {
+    "color" : "azure",
+    "capacity" : "157 GB"
+  }
+}
+2025-04-22 12:42:10 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb601965c57015a3c98 updated successfully.
+2025-04-22 12:42:10 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-04-22 12:42:10 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb601965c57015a3c98 and payload: {"name":"Synergistic Bronze Clock","data":null}
+2025-04-22 12:42:10 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb601965c57015a3c98",
+  "name" : "Synergistic Bronze Clock",
+  "updatedAt" : "2025-04-22T07:12:10.719+00:00",
+  "data" : null
+}
+2025-04-22 12:42:10 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb601965c57015a3c98 patched successfully.
+2025-04-22 12:42:10 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-04-22 12:42:10 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb601965c57015a3c98
+2025-04-22 12:42:11 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb601965c57015a3c98 has been deleted."
+}
+2025-04-22 12:42:11 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb601965c57015a3c98 deleted successfully.
+2025-05-06 16:32:51 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-06 16:32:51 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Incredible Iron Plate","data":{"color":"blue","capacity":"312 GB"}}
+2025-05-06 16:32:53 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196a5434e0542d8",
+  "name" : "Incredible Iron Plate",
+  "createdAt" : "2025-05-06T11:02:53.701+00:00",
+  "data" : {
+    "color" : "blue",
+    "capacity" : "312 GB"
+  }
+}
+2025-05-06 16:32:54 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196a5434e0542d8
+2025-05-06 16:32:55 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-06 16:32:55 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196a5434e0542d8 and payload: {"name":"Aerodynamic Plastic Bottle","data":{"color":"cyan","capacity":"165 GB"}}
+2025-05-06 16:32:56 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196a5434e0542d8",
+  "name" : "Aerodynamic Plastic Bottle",
+  "updatedAt" : "2025-05-06T11:02:55.926+00:00",
+  "data" : {
+    "color" : "cyan",
+    "capacity" : "165 GB"
+  }
+}
+2025-05-06 16:32:56 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196a5434e0542d8 updated successfully.
+2025-05-06 16:32:56 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-06 16:32:56 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196a5434e0542d8 and payload: {"name":"Enormous Plastic Hat","data":null}
+2025-05-06 16:32:56 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196a5434e0542d8",
+  "name" : "Enormous Plastic Hat",
+  "updatedAt" : "2025-05-06T11:02:56.553+00:00",
+  "data" : null
+}
+2025-05-06 16:32:56 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196a5434e0542d8 patched successfully.
+2025-05-06 16:32:56 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-06 16:32:56 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196a5434e0542d8
+2025-05-06 16:32:57 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196a5434e0542d8 has been deleted."
+}
+2025-05-06 16:32:57 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196a5434e0542d8 deleted successfully.
+2025-05-08 13:18:08 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-08 13:18:09 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Heavy Duty Marble Plate","data":{"color":"white","capacity":"289 GB"}}
+2025-05-08 13:18:11 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196aeddc1ff549b",
+  "name" : "Heavy Duty Marble Plate",
+  "createdAt" : "2025-05-08T07:48:10.880+00:00",
+  "data" : {
+    "color" : "white",
+    "capacity" : "289 GB"
+  }
+}
+2025-05-08 13:18:11 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196aeddc1ff549b
+2025-05-08 13:18:12 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-08 13:18:12 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196aeddc1ff549b and payload: {"name":"Enormous Granite Knife","data":{"color":"salmon","capacity":"364 GB"}}
+2025-05-08 13:18:13 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196aeddc1ff549b",
+  "name" : "Enormous Granite Knife",
+  "updatedAt" : "2025-05-08T07:48:13.277+00:00",
+  "data" : {
+    "color" : "salmon",
+    "capacity" : "364 GB"
+  }
+}
+2025-05-08 13:18:13 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196aeddc1ff549b updated successfully.
+2025-05-08 13:18:13 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-08 13:18:13 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196aeddc1ff549b and payload: {"name":"Small Bronze Shoes","data":null}
+2025-05-08 13:18:14 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196aeddc1ff549b",
+  "name" : "Small Bronze Shoes",
+  "updatedAt" : "2025-05-08T07:48:14.116+00:00",
+  "data" : null
+}
+2025-05-08 13:18:14 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196aeddc1ff549b patched successfully.
+2025-05-08 13:18:14 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-08 13:18:14 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196aeddc1ff549b
+2025-05-08 13:18:15 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196aeddc1ff549b has been deleted."
+}
+2025-05-08 13:18:15 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196aeddc1ff549b deleted successfully.
+2025-05-08 14:42:25 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-08 14:42:25 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Mediocre Wooden Shoes","data":{"color":"magenta","capacity":"242 GB"}}
+2025-05-08 14:42:27 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196af2aea575576",
+  "name" : "Mediocre Wooden Shoes",
+  "createdAt" : "2025-05-08T09:12:27.480+00:00",
+  "data" : {
+    "color" : "magenta",
+    "capacity" : "242 GB"
+  }
+}
+2025-05-08 14:42:28 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196af2aea575576
+2025-05-08 14:42:29 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-08 14:42:29 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196af2aea575576 and payload: {"name":"Enormous Cotton Shoes","data":{"color":"mint green","capacity":"65 GB"}}
+2025-05-08 14:42:30 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196af2aea575576",
+  "name" : "Enormous Cotton Shoes",
+  "updatedAt" : "2025-05-08T09:12:29.913+00:00",
+  "data" : {
+    "color" : "mint green",
+    "capacity" : "65 GB"
+  }
+}
+2025-05-08 14:42:30 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196af2aea575576 updated successfully.
+2025-05-08 14:42:30 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-08 14:42:30 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196af2aea575576 and payload: {"name":"Rustic Iron Car","data":null}
+2025-05-08 14:42:30 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196af2aea575576",
+  "name" : "Rustic Iron Car",
+  "updatedAt" : "2025-05-08T09:12:30.691+00:00",
+  "data" : null
+}
+2025-05-08 14:42:30 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196af2aea575576 patched successfully.
+2025-05-08 14:42:30 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-08 14:42:30 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196af2aea575576
+2025-05-08 14:42:31 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196af2aea575576 has been deleted."
+}
+2025-05-08 14:42:31 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196af2aea575576 deleted successfully.
+2025-05-08 14:49:23 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-08 14:49:24 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Lightweight Aluminum Bottle","data":{"color":"mint green","capacity":"113 GB"}}
+2025-05-08 14:49:26 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196af314f8d5582",
+  "name" : "Lightweight Aluminum Bottle",
+  "createdAt" : "2025-05-08T09:19:26.605+00:00",
+  "data" : {
+    "color" : "mint green",
+    "capacity" : "113 GB"
+  }
+}
+2025-05-08 14:49:27 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196af314f8d5582
+2025-05-08 14:49:28 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-08 14:49:28 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196af314f8d5582 and payload: {"name":"Durable Paper Gloves","data":{"color":"orange","capacity":"382 GB"}}
+2025-05-08 14:49:29 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196af314f8d5582",
+  "name" : "Durable Paper Gloves",
+  "updatedAt" : "2025-05-08T09:19:28.993+00:00",
+  "data" : {
+    "color" : "orange",
+    "capacity" : "382 GB"
+  }
+}
+2025-05-08 14:49:29 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196af314f8d5582 updated successfully.
+2025-05-08 14:49:29 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-08 14:49:29 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196af314f8d5582 and payload: {"name":"Practical Paper Gloves","data":null}
+2025-05-08 14:49:30 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196af314f8d5582",
+  "name" : "Practical Paper Gloves",
+  "updatedAt" : "2025-05-08T09:19:29.793+00:00",
+  "data" : null
+}
+2025-05-08 14:49:30 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196af314f8d5582 patched successfully.
+2025-05-08 14:49:30 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-08 14:49:30 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196af314f8d5582
+2025-05-08 14:49:30 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196af314f8d5582 has been deleted."
+}
+2025-05-08 14:49:30 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196af314f8d5582 deleted successfully.
+2025-05-08 14:58:32 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-08 14:58:32 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Fantastic Wooden Knife","data":{"color":"red","capacity":"221 GB"}}
+2025-05-08 14:58:34 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196af39a9aa559f",
+  "name" : "Fantastic Wooden Knife",
+  "createdAt" : "2025-05-08T09:28:33.962+00:00",
+  "data" : {
+    "color" : "red",
+    "capacity" : "221 GB"
+  }
+}
+2025-05-08 14:58:34 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196af39a9aa559f
+2025-05-08 14:58:35 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-08 14:58:35 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196af39a9aa559f and payload: {"name":"Incredible Linen Table","data":{"color":"blue","capacity":"288 GB"}}
+2025-05-08 14:58:36 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196af39a9aa559f",
+  "name" : "Incredible Linen Table",
+  "updatedAt" : "2025-05-08T09:28:36.209+00:00",
+  "data" : {
+    "color" : "blue",
+    "capacity" : "288 GB"
+  }
+}
+2025-05-08 14:58:36 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196af39a9aa559f updated successfully.
+2025-05-08 14:58:36 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-08 14:58:36 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196af39a9aa559f and payload: {"name":"Rustic Granite Wallet","data":null}
+2025-05-08 14:58:37 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196af39a9aa559f",
+  "name" : "Rustic Granite Wallet",
+  "updatedAt" : "2025-05-08T09:28:37.155+00:00",
+  "data" : null
+}
+2025-05-08 14:58:37 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196af39a9aa559f patched successfully.
+2025-05-08 14:58:37 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-08 14:58:37 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196af39a9aa559f
+2025-05-08 14:58:38 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196af39a9aa559f has been deleted."
+}
+2025-05-08 14:58:38 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196af39a9aa559f deleted successfully.
+2025-05-08 15:12:38 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-08 15:12:38 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Incredible Concrete Bench","data":{"color":"violet","capacity":"503 GB"}}
+2025-05-08 15:12:40 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196af46927855b9",
+  "name" : "Incredible Concrete Bench",
+  "createdAt" : "2025-05-08T09:42:39.992+00:00",
+  "data" : {
+    "color" : "violet",
+    "capacity" : "503 GB"
+  }
+}
+2025-05-08 15:12:40 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196af46927855b9
+2025-05-08 15:12:41 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-08 15:12:41 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196af46927855b9 and payload: {"name":"Rustic Steel Watch","data":{"color":"mint green","capacity":"262 GB"}}
+2025-05-08 15:12:42 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196af46927855b9",
+  "name" : "Rustic Steel Watch",
+  "updatedAt" : "2025-05-08T09:42:41.982+00:00",
+  "data" : {
+    "color" : "mint green",
+    "capacity" : "262 GB"
+  }
+}
+2025-05-08 15:12:42 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196af46927855b9 updated successfully.
+2025-05-08 15:12:42 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-08 15:12:42 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196af46927855b9 and payload: {"name":"Small Linen Shoes","data":null}
+2025-05-08 15:12:42 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196af46927855b9",
+  "name" : "Small Linen Shoes",
+  "updatedAt" : "2025-05-08T09:42:42.630+00:00",
+  "data" : null
+}
+2025-05-08 15:12:42 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196af46927855b9 patched successfully.
+2025-05-08 15:12:42 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-08 15:12:42 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196af46927855b9
+2025-05-08 15:12:43 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196af46927855b9 has been deleted."
+}
+2025-05-08 15:12:43 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196af46927855b9 deleted successfully.
+2025-05-13 11:08:41 INFO  c.example.api.tests.CreateObjectTest - Starting CreateObjectTest...
+2025-05-13 11:08:42 INFO  com.example.api.utils.RestUtils - Creating object with payload: {"name":"Durable Steel Plate","data":{"color":"turquoise","capacity":"364 GB"}}
+2025-05-13 11:08:45 DEBUG c.example.api.tests.CreateObjectTest - Create Object Response:
+{
+  "id" : "ff808181932badb60196c8270d2f00ad",
+  "name" : "Durable Steel Plate",
+  "createdAt" : "2025-05-13T05:38:44.655+00:00",
+  "data" : {
+    "color" : "turquoise",
+    "capacity" : "364 GB"
+  }
+}
+2025-05-13 11:08:45 INFO  c.example.api.tests.CreateObjectTest - Successfully created object with ID: ff808181932badb60196c8270d2f00ad
+2025-05-13 11:08:46 INFO  c.example.api.tests.UpdateObjectTest - Starting UpdateObjectTest...
+2025-05-13 11:08:46 INFO  com.example.api.utils.RestUtils - Updating object with ID: ff808181932badb60196c8270d2f00ad and payload: {"name":"Rustic Steel Lamp","data":{"color":"sky blue","capacity":"226 GB"}}
+2025-05-13 11:08:47 DEBUG c.example.api.tests.UpdateObjectTest - Update Object Response:
+{
+  "id" : "ff808181932badb60196c8270d2f00ad",
+  "name" : "Rustic Steel Lamp",
+  "updatedAt" : "2025-05-13T05:38:47.050+00:00",
+  "data" : {
+    "color" : "sky blue",
+    "capacity" : "226 GB"
+  }
+}
+2025-05-13 11:08:47 INFO  c.example.api.tests.UpdateObjectTest - Object with ID ff808181932badb60196c8270d2f00ad updated successfully.
+2025-05-13 11:08:47 INFO  c.example.api.tests.PatchObjectTest - Starting PatchObjectTest...
+2025-05-13 11:08:47 INFO  com.example.api.utils.RestUtils - Partially updating object with ID: ff808181932badb60196c8270d2f00ad and payload: {"name":"Synergistic Paper Clock","data":null}
+2025-05-13 11:08:48 DEBUG c.example.api.tests.PatchObjectTest - Patch Object Response:
+{
+  "id" : "ff808181932badb60196c8270d2f00ad",
+  "name" : "Synergistic Paper Clock",
+  "updatedAt" : "2025-05-13T05:38:47.906+00:00",
+  "data" : null
+}
+2025-05-13 11:08:48 INFO  c.example.api.tests.PatchObjectTest - Object with ID ff808181932badb60196c8270d2f00ad patched successfully.
+2025-05-13 11:08:48 INFO  c.example.api.tests.DeleteObjectTest - Starting DeleteObjectTest...
+2025-05-13 11:08:48 INFO  com.example.api.utils.RestUtils - Deleting object with ID: ff808181932badb60196c8270d2f00ad
+2025-05-13 11:08:49 DEBUG c.example.api.tests.DeleteObjectTest - Delete Object Response:
+{
+  "message" : "Object with id = ff808181932badb60196c8270d2f00ad has been deleted."
+}
+2025-05-13 11:08:49 INFO  c.example.api.tests.DeleteObjectTest - Object with ID ff808181932badb60196c8270d2f00ad deleted successfully.
